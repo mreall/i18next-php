@@ -52,6 +52,9 @@ const STORE_API = [
  * @method mixed getDataByLanguage(string $lng)
  */
 class I18n {
+    protected $getResource, $addResource, $addResources, $addResourceBundle,
+        $removeResourceBundle, $hasResourceBundle, $getResourceBundle, $getDataByLanguage;
+
     /**
      * Instance options
      *

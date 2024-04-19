@@ -269,7 +269,7 @@ class Interpolator {
                 break;
         } while (!empty($match));
 
-        return $str;
+        return preg_replace('/\$\$\$\$/', '$', $str);
     }
 
     /**
